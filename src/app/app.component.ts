@@ -1,5 +1,6 @@
 import { Component, Inject } from '@angular/core';
 import { AngularFire, FirebaseListObservable, FirebaseAuth } from 'angularfire2';
+import { info } from "./info";
 
 
 @Component({
@@ -29,7 +30,7 @@ export class AppComponent {
 
     login() {
         // Anonymous
-        this.af.auth.login({ email: 'risc@langaust.com', password: 'mlmlml14' });
+        this.af.auth.login(info);
     }
 
     logout() {

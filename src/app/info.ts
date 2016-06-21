@@ -1,0 +1,1 @@
+export const info =  { email: 'user@fhcoffee.langhard.com', password: '[DaEt()qJJBCSOSmH!bewUuWYNa?)I*@' };
