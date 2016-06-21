@@ -17,7 +17,7 @@ export class AppComponent {
 
     ngAfterViewInit() {
         this.people = this.af.database.list('people');
-        this.af.auth.login({ email: 'risc@langaust.com', password: 'mlmlml14' });
+        this.af.auth.login(info);
     }
 
     addCoffee(person) {
