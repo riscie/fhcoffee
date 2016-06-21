@@ -18,13 +18,16 @@ module.exports = function (defaults) {
             '@angular/**/*.+(js|js.map)',
             // AngularFire
             'angularfire2/**/*.js',
-            'firebase/*.js',
+            'firebase/*.+(js|js.map)',
             // Bootstrap
-            'bootstrap/dist/**/*.*',
+            'bootstrap/dist/**/*.+(js|js.map|css)',
             // Font-Awesome
             'font-awesome/**/*.*',
             // jQuery
-            'jquery/dist/*.*'
+            'jquery/dist/*.+(js|js.map)',
+            //ng2-charts + charts.js
+            'ng2-charts/**/*.+(js|js.map)',
+            'chart.js/dist/*.js'
         ]
     });
 };
